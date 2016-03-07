@@ -22,6 +22,7 @@ Build-steps
 
 Next-steps
 =============
+* Write unit-test that checks for the actual existance of every file stubbed in folder form atm (serializations/ csv, html, json, txt, xhtml, xml; structural/ callable, generator, hashable, iterator, mapping, mutable_mapping, mutable_sequence, mutable_set, sequence, set; containers/ _dict, _iter, _list, _object, _tuple; atomics/numbers/ )
 * draft atomics:
 * Reorganize: for scale-ability. Seperate Rangen, data-combiners (concept-monads?), from lists of pathological inputs
 * Replace rand-gen, into the new organization
